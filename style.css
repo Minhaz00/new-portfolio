@@ -1,0 +1,81 @@
+body{
+    background-color:whitesmoke;
+    font-family: 'Play', sans-serif;
+}
+.intro img{
+    height: 400px;
+    width: 400px;
+    border-radius: 550px 40px 700px 700px;
+    background-image:linear-gradient(crimson,tomato); 
+}
+
+h1{
+    font-size: 60px;
+}
+.name{
+    color: red;
+}
+.container{
+    display: flex;
+}
+.half{
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 3%;
+    margin-top: 150px;
+}
+.half p{
+    text-align: justify;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(crimson,red);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-weight: 500;
+
+}
+
+.section-heading{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 150px;
+}
+.about-me img{
+    border-radius: 5px;
+    height: 300px;
+    width: 500px;
+}
+.about-me p{
+    padding-right: 50px;
+}
+
+.inline-block{
+    width: 50%;
+    display: flex;
+}
+
+
+.skill-set1{
+    width: 70%;
+    border:2px solid black;111
+    border-radius: 20px;
+    margin: auto;
+    padding: 0px 1px 30px 10px;
+}
+
+.html {width: 90%; background-color:tomato;}
+.css {width: 80%; background-color: tomato;}
+.js {width: 65%; background-color: tomato;}
+.react {width: 60%; background-color: tomato;}
+
+
+.figma {width: 90%; background-color:tomato;}
+.photoshop {width: 80%; background-color: tomato;}
+.illustrator {width: 65%; background-color: tomato;}
+
+.php {width: 90%; background-color:tomato;}
+.python {width: 80%; background-color: tomato;}
+.nodejs {width: 65%; background-color: tomato;}
+.firebase {width: 60%; background-color: tomato;}
